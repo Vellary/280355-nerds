@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+</head>
+<body>
+<header class="main-header">
+  <div class="container">
+    <div class="logo">
+      <img src="http://placehold.it/150x100">
+    </div>
+    <nav class="main-navigation">
+      <ul>
+        <li><a href="#"> Студия</a></li>
+        <li><a href="#">Клиенты</a></li>
+        <li><a href="#"> Магазин</a></li>
+        <li><a href="#"> Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="user-block">
+      <a class="basket" href="#">Корзина</a>
+    </div>
+    <div class="slogan">
+      <h1>Долго, дорого, скурпулезно.</h1>
+      <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+      <form action="#" method="get">
+        <input type="submit" value="Узнать больше">
+      </form>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="products">
+    <div class="website">
+      <img src="http://placehold.it/150x100">
+      <h2><a href="#">Веб-сайты</a></h2>
+      <p>Мир никогда не будет прежним, после того как увидит ваш сайт!</p>
+      <a href="#" class="button">Заказать</a>
+    </div>
+    <div class="apps">
+      <img src="http://placehold.it/150x100">
+      <h2><a href="#"> Приложения</a></h2>
+      <p>Покорите топ-10 приложений в AppStore и GooglePlay.</p>
+      <a href="#" class="button">Заказать</a>
+    </div>
+    <div class="presentations">
+      <img src="http://placehold.it/150x100">
+      <h2><a href="#">Презентации</a></h2>
+      <p>Вы даже не представляете насколько вы изумительны!</p>
+      <a href="#" class="button">Заказать</a>
+      <!--Убрала формы для кнопок-заменила их ссылками. Заголовки тоже обернула в ссылки.-->
+    </div>
+  </section>
+  <hr>
+  <article>
+    <h1>Мы - маленькая, но гордая дизайн-студия из краснодара.</h1>
+    <p> Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая
+      рук, как роботы.</p>
+    <h3>Выполняем заказы на разработку:</h3>
+    <ul>
+      <li>Веб-сайтов любой сложности</li>
+      <li>Мобильных приложений для iOS и Android</li>
+      <li>Слайдшоу и видео для корпоративных презентаций</li>
+    </ul>
+  </article>
+  <div class="statistics">
+    <div class="logo">
+      <img src="http://placehold.it/150x100">
+    </div>
+    <h3>с 2004 года любим точность во всем:</h3>
+    <section class="percent">
+      <div class="commitment">
+        <h4>146%</h4>
+        <p>Уровень самоотдачи</p>
+      </div>
+      <div class="terms">
+        <h4> 100%</h4>
+        <p>Соблюдение сроков</p>
+      </div>
+      <div class="prepayment">
+        <h4> 50%</h4>
+        <p>Минимальная предоплата</p>
+      </div>
+    </section>
+  </div>
+  <div class="logos">
+    <img src="http://placehold.it/150x100">
+  </div>
+</main>
+<footer>
+  <div class="map">
+    <section class="contacts">
+      <span class="trademark"> Nёrds design studio</span>
+      <span class="adress">191186, Санкт-Петербург,
+        улица Б. Конюшенная 19/8</span>
+      <span class="phone"> тел. +7(812)275-75-75</span>
+      <a href="#" class="button">Напишите нам</a>
+      <!--Убрала форму. Вставила ссылку. Всем ссылкам-кнопкам задала класс button-->
+    </section>
+  </div>
+  <section class="social">
+    <h1>Давайте дружить, это выгодно!</h1>
+    <h2>Скидка 10 % для друзей из социальных сетей.</h2>
+    <a href="#" class="social-btn-vk">Вконтакте</a>
+    <a href="#" class="social-btn-fb">Фэйсбук</a>
+    <a href="#" class="social-btn-inst">Инстаграм</a>
+  </section>
+</footer>
+</body>
 </html>
