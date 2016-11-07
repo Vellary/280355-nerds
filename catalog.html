@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+
 </head>
 <body>
 <header class="main-header">
@@ -16,6 +17,8 @@
       </ul>
 
       <div class="user-block">
+        <img src="img.icon-basket">
+        <!--вставила "иконку корзина"-->
         <a class="basket" href="#">Корзина</a>
       </div>
       <h1>Магазин готовых шаблонов</h1>
@@ -35,15 +38,15 @@
     <div class="net">
       <h5>сетка:</h5>
       <form action="#" method="post">
-        <label> <input type="checkbox" name="adaptive" checked> адаптивная </label>
-        <label> <input type="checkbox" name="fix"> фиксированная </label>
-        <label><input type="checkbox" name="flexible"> резиновая </label>
+        <label> <input type="radio" name="adaptive" checked> адаптивная </label>
+        <label> <input type="radio" name="fix"> фиксированная </label>
+        <label><input type="radio" name="flexible"> резиновая </label>
       </form>
       <div class="features">
         <h5>особенности:</h5>
         <form action="#" method="get">
           <label> <input type="checkbox" name="slider" checked> слайдер </label>
-          <label> <input type="checkbox" name="" "benefits unit"> блок преимуществ </label>
+          <label> <input type="checkbox" name="benefits unit"> блок преимуществ </label>
           <label> <input type="checkbox" name="news" checked> новости </label>
           <label> <input type="checkbox" name="gallery"> галерея </label>
           <label> <input type="checkbox" name="basket"> корзина </label>
@@ -62,6 +65,7 @@
         <input type="checkbox" name=arrow-up">
         <input type="checkbox" name=arrow-down">
       </form>
+
     </div>
     <section class="products-images">
       <a href="#" class="layout1"> <img src="<img src=" http://placehold.it/150x100" > </a>
