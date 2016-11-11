@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
-    <link href="style.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <header class="main-header">
   <div class="container">
-      <a href="#" class="logo"><img src="img/logo.png"></a>
+    <a href="#" class="logo"><img src="img/logo.png"></a>
     <nav class="main-navigation">
       <ul>
         <li><a href="#"> Студия</a></li>
@@ -18,7 +18,8 @@
       </ul>
     </nav>
     <div class="user-block">
-      <a class="basket" href="#">Корзина</a>
+      <img src="img/.cart-icon" width="1440px" height="2476px" alt="cart">
+      <a class="cart" href="#">Корзина</a>
     </div>
     <div class="slogan">
       <h1>Долго, дорого, скурпулезно.</h1>
@@ -32,19 +33,19 @@
 <main>
   <section class="products">
     <div class="website">
-      <img src="http://placehold.it/150x100">
+      <img src="img/illustration-1.jpg" width="1440px" height="2476px">
       <h2><a href="#">Веб-сайты</a></h2>
       <p>Мир никогда не будет прежним, после того как увидит ваш сайт!</p>
       <a href="#" class="button">Заказать</a>
     </div>
     <div class="apps">
-      <img src="http://placehold.it/150x100">
+      <img src="img/illustration-2.jpg" width="1440px" height="2476px">
       <h2><a href="#"> Приложения</a></h2>
       <p>Покорите топ-10 приложений в AppStore и GooglePlay.</p>
       <a href="#" class="button">Заказать</a>
     </div>
     <div class="presentations">
-      <img src="http://placehold.it/150x100">
+      <img src="img/illustration-3.jpg" width="1440px" height="2476px">
       <h2><a href="#">Презентации</a></h2>
       <p>Вы даже не представляете насколько вы изумительны!</p>
       <a href="#" class="button">Заказать</a>
@@ -53,7 +54,7 @@
   </section>
   <hr>
   <article>
-    <h1>Мы - маленькая, но гордая дизайн-студия из краснодара.</h1>
+    <h1 class="studio">Мы - маленькая, но гордая дизайн-студия из краснодара.</h1>
     <p> Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая
       рук, как роботы.</p>
     <h3>Выполняем заказы на разработку:</h3>
@@ -65,26 +66,29 @@
   </article>
   <div class="statistics">
     <div class="logo">
-      <img src="http://placehold.it/150x100">
+      <img src="img/nerds-illustration.jpg" width="1440px" height="2476px" alt="Нёрдс">
     </div>
     <h3>с 2004 года любим точность во всем:</h3>
     <section class="percent">
       <div class="commitment">
         <h4>146%</h4>
-        <p>Уровень самоотдачи</p>
+        <p class="promises">Уровень самоотдачи</p>
       </div>
       <div class="terms">
         <h4> 100%</h4>
-        <p>Соблюдение сроков</p>
+        <p class="promises">Соблюдение сроков</p>
       </div>
       <div class="prepayment">
         <h4> 50%</h4>
-        <p>Минимальная предоплата</p>
+        <p class="promises">Минимальная предоплата</p>
       </div>
     </section>
   </div>
   <div class="logos">
-    <img src="http://placehold.it/150x100">
+    <img src="img/logo-1" width="1440px" height="2476px" alt="htmlacademy">
+    <img src="img/logo-2" width="1440px" height="2476px" alt="borodinski">
+    <img src="img/logo-3" width="1440px" height="2476px" alt="pink">
+    <img src="img/logo-4" width="1440px" height="2476px" alt="mishka">
   </div>
 </main>
 <footer>
@@ -93,17 +97,18 @@
       <span class="trademark"> Nёrds design studio</span>
       <span class="adress">191186, Санкт-Петербург,
         улица Б. Конюшенная 19/8</span>
-      <span class="phone"> тел. +7(812)275-75-75</span>
+      <span class="adress"> тел. +7(812)275-75-75</span>
       <a href="#" class="button">Напишите нам</a>
       <!--Убрала форму. Вставила ссылку. Всем ссылкам-кнопкам задала класс button-->
     </section>
   </div>
   <section class="social">
-    <h1>Давайте дружить, это выгодно!</h1>
-    <h2>Скидка 10 % для друзей из социальных сетей.</h2>
-    <a href="#" class="social-btn-vk">Вконтакте</a>
-    <a href="#" class="social-btn-fb">Фэйсбук</a>
-    <a href="#" class="social-btn-inst">Инстаграм</a>
+    <h1 class="friendship">Давайте дружить, это выгодно!</h1>
+    <h2 class="discount">Скидка 10 % для друзей из социальных сетей.</h2>
+    <a href="#" class="social-btn-vk"> <img src="img/Shape" width="1440px" height="2476px" alt="vk"></a>
+    <a href="#" class="social-btn-fb"><img src="img/Shape" width="1440px" height="2476px" alt="fb"></a>
+    <a href="#" class="social-btn-inst"><img src="img/Shape" width="1440px" height="2476px" alt="inst"></a>
+    <!--эта часть явно не правильна - нужна будет твоя консультация. этот коммент потом удалю-->
   </section>
 </footer>
 </body>

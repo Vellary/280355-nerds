@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
-
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <header class="main-header">
@@ -15,11 +15,9 @@
         <li><a href="#"> Магазин</a></li>
         <li><a href="#"> Контакты</a></li>
       </ul>
-
       <div class="user-block">
-        <img src="img.icon-basket">
-        <!--вставила "иконку корзина"-->
-        <a class="basket" href="#">Корзина</a>
+        <img src="img/.cart-icon" width="1440px" height="2476px" alt="cart">
+        <a class="cart" href="#">Корзина</a>
       </div>
       <h1>Магазин готовых шаблонов</h1>
     </nav>
@@ -57,23 +55,24 @@
       <input type="submit" value="показать">
     </div>
     <div class="sorting">
-      <h5>сортировать:</h5>
+      <h6>сортировать:</h6>
       <span class="prise">по цене</span>
       <span class="type">по типу</span>
       <span class="name">по названию</span>
       <form action="#" method="post">
-        <input type="checkbox" name=arrow-up">
-        <input type="checkbox" name=arrow-down">
+        <label> <img src="img/sort-down" alt="arrow-down"> <input type="radio" name="arrow-down"></label>
+        <label> <img src="img/sort-up" alt="arrow-up"> <input type="radio" name="arrow-up"></label>
       </form>
 
     </div>
     <section class="products-images">
-      <a href="#" class="layout1"> <img src="<img src=" http://placehold.it/150x100" > </a>
-      <a href="#" class="layout2"> <img src="<img src=" http://placehold.it/150x100"> </a>
-      <a href="#" class="layout3"> <img src="<img src=" http://placehold.it/150x100"> </a>
-      <a href="#" class="layout4"> <img src="<img src=" http://placehold.it/150x100"> </a>
-      <a href="#" class="layout5"> <img src="<img src=" http://placehold.it/150x100" > </a>
-      <a href="#" class="layout6"> <img src="<img src=" http://placehold.it/150x100" > </a>
+      <a href="#" class="layout1"> <img src="img/img-sedona.jpg" width="1440px" height="2476px" alt="sedona">
+      </a>
+      <a href="#" class="layout2"> <img src="img/img-sedona.jpg" width="1440px" height="2476px" alt="sedona"> </a>
+      <a href="#" class="layout3"> <img src="img/img-barbershop.jpg" width="1440px" height="2476px" alt="barber"> </a>
+      <a href="#" class="layout4"> <img src="img/img-mishka.jpg" width="1440px" height="2476px" alt="mishka"> </a>
+      <a href="#" class="layout5"> <img src="img/img-aplus.jpg" width="1440px" height="2476px" alt="aplus"> </a>
+      <a href="#" class="layout6"> <img src="img/img-kvast.jpg" width="1440px" height="2476px" alt="kvastl"> </a>
     </section>
     <div class="navigation">
       <a href="#" class="page">1</a>
@@ -85,24 +84,24 @@
 </main>
 <footer>
   <div class="map">
+    <img class="map-background" src="img/map" width="1440px" height="2476px" alt="map">
+    <img class="map-marker" src="img/map-marker" width="1440px" height="2476px" alt="map-marker">
     <section class="contacts">
       <span class="trademark"> Nёrds design studio</span>
       <span class="adress">191186, Санкт-Петербург,
         улица Б. Конюшенная 19/8</span>
-      <span class="phone"> тел. +7(812)275-75-75</span>
+      <span class="adress"> тел. +7(812)275-75-75</span>
       <a href="#" class="button">Напишите нам</a>
       <!--Убрала форму. Вставила ссылку. Всем ссылкам-кнопкам задала класс button-->
     </section>
   </div>
   <section class="social">
-    <h1>Давайте дружить, это выгодно!</h1>
-    <h2>Скидка 10 % для друзей из социальных сетей.</h2>
-    <a href="#" class="social-btn-vk">Вконтакте</a>
-    <a href="#" class="social-btn-fb">Фэйсбук</a>
-    <a href="#" class="social-btn-inst">Инстаграм</a>
+    <h1 class="friendship">Давайте дружить, это выгодно!</h1>
+    <h2 class="discount">Скидка 10 % для друзей из социальных сетей.</h2>
+    <a href="#" class="social-btn-vk"> <img src="img/Shape" width="1440px" height="2476px" alt="vk"></a>
+    <a href="#" class="social-btn-fb"><img src="img/Shape" width="1440px" height="2476px" alt="fb"></a>
+    <a href="#" class="social-btn-inst"><img src="img/Shape" width="1440px" height="2476px" alt="inst"></a>
   </section>
 </footer>
-
-
 </body>
 </html>
