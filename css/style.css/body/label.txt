@@ -1,5 +1,0 @@
-font-family:Roboto Regular;
-font-size:16 px;
-line-height:20 px;
-color:#283136;
-font-weight:Regular;
