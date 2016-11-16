@@ -19,3 +19,126 @@ h2 {
   font-family: Roboto Bold;
   color: #000000;
 }
+.main-header {
+ min-height: 548px;
+}
+.container {
+  width: 1160px;
+  padding: 0 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: yellow;
+}
+.main-navigation {
+  float: left;
+  width: 500px;
+  margin: 0 auto;
+  background-color: darkblue;
+}
+.main-navigation li {
+  display: inline-block;
+  text-align: justify;
+  background-color: deeppink;
+}
+.logo {
+  float: left;
+
+}
+.user-block {
+  float: right;
+  width: 160px;
+  margin: 0 auto;
+background-color: green;
+}
+.slogan {
+  float: left;
+margin-right: 800px;
+  width: 401px;
+  clear: both;
+}
+.products {
+  width: 1100px;
+  padding: 21px 83px 80px 156px;
+}
+.website {
+  float: left;
+  width: 300px;
+  margin-right: 100px;
+}
+.apps{
+  float: left;
+  width: 300px;
+  margin-right: 100px;
+}
+.presentations {
+  float: right;
+  width: 300px;
+}
+article {
+  float: left;
+  width: 660px;
+  height: 528px;
+  margin-left: 20px;
+margin-right: 40px;
+  background-color: chartreuse;
+}
+article li {
+  display: block;
+}
+h1 .studio {
+  width: auto;
+}
+.statistics {
+  float: right;
+  width: 360px;
+  margin-left: 120px;
+  margin-right: 20px;
+}
+.commitment {
+  float: left;
+  width: 120px;
+ margin-left: 0;
+}
+.terms {
+  float: left;
+  width: 120px;
+ margin: 0;
+}
+.prepayment {
+  float: left;
+  width: 120px;
+  margin-right: 0px;
+}
+.logos {
+  clear: both;
+  margin: auto;
+  width: 1160px;
+  display: inline-block;
+  text-align: justify;
+  background-color: blueviolet;
+}
+.map {
+  float: left;
+  margin-left: 20px;
+  margin-right: 840px;
+  margin-top: 136px;
+  margin-bottom: 49px;
+  width: 320px;
+  min-height: 314px;
+  background-color: chocolate;
+  padding: 50px ;
+
+}
+.map-marker{
+  float: right;
+  width: 261px;
+  margin-left: 340px;
+  margin-right: 300px;
+  min-height: 190px;
+}
+.social {
+  clear: both;
+  width: 1160px;
+  margin: 0 auto;
+  background-color: aqua;
+}
