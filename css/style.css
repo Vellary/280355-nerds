@@ -5,6 +5,7 @@ body {
   font-family: "Roboto Regular";
   color: #000000;
 }
+
 h1 {
   font-size: 55px;
   line-height: 55px;
@@ -12,6 +13,7 @@ h1 {
   font-family: Roboto Medium;
   color: #000000;
 }
+
 h2 {
   font-size: 24px;
   line-height: 30px;
@@ -19,126 +21,238 @@ h2 {
   font-family: Roboto Bold;
   color: #000000;
 }
+
 .main-header {
- min-height: 548px;
+  min-height: 500px;
+  background-color: firebrick;
 }
+
 .container {
   width: 1160px;
   padding: 0 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: yellow;
+  margin: 0 auto;
+  background-color: aquamarine;
 }
+
+.logo {
+  float: left;
+  width: 160px;
+  margin: 0 auto;
+}
+
 .main-navigation {
   float: left;
-  width: 500px;
-  margin: 0 auto;
+  width: 640px;
+  min-height: 74px;
+  margin-left: 0;
   background-color: darkblue;
 }
+
 .main-navigation li {
   display: inline-block;
   text-align: justify;
   background-color: deeppink;
 }
-.logo {
-  float: left;
 
-}
 .user-block {
   float: right;
   width: 160px;
   margin: 0 auto;
-background-color: green;
+  min-height: 74px;
+  background-color: green;
 }
+
+main {
+  min-height: auto;
+}
+
 .slogan {
   float: left;
-margin-right: 800px;
+  margin-right: 800px;
   width: 401px;
   clear: both;
 }
+
 .products {
   width: 1100px;
   padding: 21px 83px 80px 156px;
 }
+
 .website {
   float: left;
   width: 300px;
   margin-right: 100px;
 }
-.apps{
+
+.apps {
   float: left;
   width: 300px;
   margin-right: 100px;
 }
+
 .presentations {
   float: right;
   width: 300px;
 }
+
 article {
   float: left;
   width: 660px;
   height: 528px;
   margin-left: 20px;
-margin-right: 40px;
+  margin-right: 40px;
+  padding: 10px 10px;
   background-color: chartreuse;
 }
+
 article li {
   display: block;
 }
+
 h1 .studio {
   width: auto;
 }
+
 .statistics {
   float: right;
   width: 360px;
-  margin-left: 120px;
+  margin-left: 100px;
   margin-right: 20px;
+  height: auto;
+  background-color: firebrick;
 }
+
+.logo {
+  width: 360px;
+}
+
 .commitment {
   float: left;
   width: 120px;
- margin-left: 0;
 }
+
 .terms {
   float: left;
   width: 120px;
- margin: 0;
 }
+
 .prepayment {
   float: left;
   width: 120px;
-  margin-right: 0px;
 }
+
 .logos {
   clear: both;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 1160px;
   display: inline-block;
   text-align: justify;
   background-color: blueviolet;
 }
+
+.page-navigation {
+  clear: both;
+  width: auto;
+  height: 111px;
+  background-color: darkslateblue;
+  margin: 0 auto;
+}
+
+.page-navigation a {
+  display: inline-block;
+}
+
+.main-map {
+  height: 418px;
+  background-color: goldenrod;
+}
+
 .map {
   float: left;
   margin-left: 20px;
   margin-right: 840px;
-  margin-top: 136px;
-  margin-bottom: 49px;
+  margin-top: 53px;
+  margin-bottom: 59px;
   width: 320px;
   min-height: 314px;
   background-color: chocolate;
-  padding: 50px ;
+}
 
-}
-.map-marker{
-  float: right;
-  width: 261px;
-  margin-left: 340px;
-  margin-right: 300px;
-  min-height: 190px;
-}
 .social {
-  clear: both;
   width: 1160px;
-  margin: 0 auto;
+  height: 215px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
   background-color: aqua;
+}
+
+.social-btn {
+  float: left;
+  width: 260px;
+  margin-left: 20px;
+  margin-top: 67px;
+  margin-bottom: auto;
+  height: 67px;
+  background-color: darksalmon;
+}
+
+.content {
+  float: right;
+  width: 560px;
+  height: 87px;
+  margin-left: 420px;
+  margin-top: 66px;
+  margin-bottom: 64px;
+  background-color: gold;
+}
+
+.left-sidebar {
+  float: left;
+  width: 260px;
+  margin-left: 20px;
+  margin-right: 100px;
+  height: 2118px;
+  background-color: blueviolet;
+}
+
+.sorting {
+  width: 760px;
+  float: right;
+  background-color: brown;
+}
+
+.products-images. a {
+  float: left;
+  width: 360px;
+  height: 636px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 43px;
+  background-color: darkred;
+}
+
+.products-images. a:nth-child(even) {
+  float: right;
+}
+
+.map-marker {
+  display: none;
+}
+/*потом уберу, это просто, чтоб не мешал.*/
+/*.clearfix {*/
+  /*clear: both;*/
+  /*height: 0;*/
+/*пыталась поставить распорки - ни одна не работает*/
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1.friendship {
+  font-size: 36px;
+}
+h2.discount {
+  font-size: 16px;
 }
